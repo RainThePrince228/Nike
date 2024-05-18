@@ -201,27 +201,58 @@ footer{
     height: 35vh;
     border-radius: 30px;
     margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+#SneakerImage1 img{
+    width: 50vh;
+    height: 30vh;
+}
+
 #SneakerImage2{
     background-color: #F5E6FF;
     width: 30vh;
     height: 35vh;
     border-radius: 30px;
     margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+#SneakerImage2 img{
+    width: 40vh;
+    height: 25vh;
+}
+
 #SneakerImage3{
     background-color: #F7C29B;
     width: 30vh;
     height: 35vh;
     border-radius: 30px;
     margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+#SneakerImage3 img{
+    width: 60vh;
+    height: 40vh;
+}
+
 #SneakerImage4{
     background-color: #68EAEB;
     width: 30vh;
     height: 35vh;
     border-radius: 30px;
     margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#SneakerImage4 img{
+    width: 40vh;
+    height: 25vh;
 }
 
 .red-text {
