@@ -10,7 +10,57 @@ body{
 header{
     width: auto;
     height: 10vh;
+    padding: 5vh 5vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+#headerLeft{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Menu{
+    width: 30%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E7E9EB;
+    border-radius: 30px;
+}
+
+#Menu img{
+    width: 2vh;
+    height: 2vh;
+}
+
+#Search{
+    width: 60%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #E7E9EB;
+    border-radius: 30px;
+}
+
+#Search img{
+    width: 2vh;
+    height: 2vh;
+    padding-left: 2vh;
+}
+
+#Search p{
+    padding-left: 2vh;
+}
+
+#headerRight{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
