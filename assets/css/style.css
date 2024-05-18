@@ -187,7 +187,7 @@ footer{
 
 .Sneaker{
     width: auto;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-content: space-around;
@@ -200,24 +200,28 @@ footer{
     width: 30vh;
     height: 35vh;
     border-radius: 30px;
+    margin-bottom: 5vh;
 }
 #SneakerImage2{
     background-color: #F5E6FF;
     width: 30vh;
     height: 35vh;
     border-radius: 30px;
+    margin-bottom: 5vh;
 }
 #SneakerImage3{
     background-color: #F7C29B;
     width: 30vh;
     height: 35vh;
     border-radius: 30px;
+    margin-bottom: 5vh;
 }
 #SneakerImage4{
     background-color: #68EAEB;
     width: 30vh;
     height: 35vh;
     border-radius: 30px;
+    margin-bottom: 5vh;
 }
 
 .red-text {
@@ -226,4 +230,32 @@ footer{
 .black-text {
     color: black;
     text-decoration: line-through;
+}
+
+.Colors{
+    width: 8vh;
+    height: 4vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #458EF6;
+    font-size: 15px;
+    background-color: #458ff63f;
+    border-radius: 30px;
+}
+
+.Cart{
+    width: 30vh;
+    height: 8vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E9EB;
+    border-radius: 40px;
+}
+
+.Cart img{
+    padding-right: 2vh;
 }
