@@ -84,3 +84,39 @@ header{
     background-color: #E7E9EB;
     border-radius: 40px;
 }
+
+article{
+    width: auto;
+    height: 50vh;
+    margin: 5vh 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-block {
+    width: 50vh;
+    height: 40vh;
+    text-align: center;
+    border: 5px solid black;
+    padding-top: 5vh;
+}
+
+.login-block input[type="email"],
+.login-block input[type="password"] {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.login-block input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5vh;
+}
