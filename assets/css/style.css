@@ -17,7 +17,7 @@ header{
 }
 
 #headerLeft{
-    width: 33%;
+    width: 23%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -59,8 +59,28 @@ header{
 }
 
 #headerRight{
-    width: 33%;
+    width: 20%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#Language{
+    width: 8vh;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E9EB;
+    border-radius: 30px;
+}
+
+#Currency{
+    width: 8vh;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E9EB;
+    border-radius: 30px;
 }
