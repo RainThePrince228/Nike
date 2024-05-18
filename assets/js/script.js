@@ -8,3 +8,19 @@ window.onload = function() {
 function openPersonalAccount() {
     window.location.href = 'Account.html';
 }
+
+function openSneakersOne() {
+    window.location.href = 'Sneakers1.html';
+}
+
+function openSneakersTwo() {
+    window.location.href = 'Snakers2.html';
+}
+
+function openSneakersThree() {
+    window.location.href = 'Snakers3.html';
+}
+
+function openSneakersFour() {
+    window.location.href = 'Snakers4.html';
+}
