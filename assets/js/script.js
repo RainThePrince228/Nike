@@ -14,13 +14,13 @@ function openSneakersOne() {
 }
 
 function openSneakersTwo() {
-    window.location.href = 'Snakers2.html';
+    window.location.href = 'Sneakers2.html';
 }
 
 function openSneakersThree() {
-    window.location.href = 'Snakers3.html';
+    window.location.href = 'Sneakers3.html';
 }
 
 function openSneakersFour() {
-    window.location.href = 'Snakers4.html';
+    window.location.href = 'Sneakers4.html';
 }
