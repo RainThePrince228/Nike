@@ -10,7 +10,7 @@ body{
 header{
     width: auto;
     height: 10vh;
-    padding: 5vh 5vh;
+    margin: 5vh 5vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -30,7 +30,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     background-color: #E7E9EB;
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 #Menu img{
@@ -45,7 +45,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     background-color: #E7E9EB;
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 #Search img{
@@ -72,7 +72,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #E7E9EB;
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 #Currency{
@@ -82,5 +82,88 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #E7E9EB;
+    border-radius: 40px;
+}
+
+article{
+    position: relative;
+    width: auto;
+    height: 70vh;
+    margin: 5vh 5vh;
+    background-color: #FFE2B5;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#articleMain{
+    width: 90%;
+    height: 40vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+#articleMainLeft{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-right: 70vh;
+}
+
+#articleMainLeft h2{
+    font-size: 50px;
+    padding-bottom: 5vh;
+}
+
+#articleMainLeft h1{
+    font-size: 30px;
+    padding-bottom: 5vh;
+}
+
+#articleMainRight{
+    position: absolute;
+    top: 5vh;
+    right: 15vh;
+    z-index: 0;
+}
+
+#articleMainRight img{
+    width: 80vh;
+}
+
+.articleButton {
+	background-color:#000000;
+	border-radius:40px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffea00;
+	font-size:25px;
+	padding:25px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+#articleSlider{
+    width: auto;
+    height: auto;
+    padding-top: 10vh;
+    z-index: 1;
+}
+
+#articleArrows{
+    z-index: 2;
+    width: 100vh;
+    position: absolute;
+    bottom: 25vh;
+    left: 5vh;
+}
+
+#articleArrows img{
+    width: 180vh;
 }
