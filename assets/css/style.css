@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+header{
+    width: auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
